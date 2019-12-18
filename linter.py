@@ -10,7 +10,7 @@ class StaticCheck(Linter):
     cmd = ('staticcheck', '-f', 'text', '${file_path}')
 
     regex = (
-        r'^(?P<filename>\w+.go):'
+        r'^(?P<filename>\S+.go):'
         r'(?P<line>\d+):'
         r'(?P<col>\d+):\s+'
         r'(?P<message>.*)'
