@@ -3,7 +3,7 @@ SublimeLinter-contrib-staticcheck
 
 This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [`staticcheck`](https://staticcheck.io). It will be used with files that have the `.go` syntax.
 
-<!-- TODO: include screenshot -->
+![screenshot](screenshot.png)
 
 ## Installation
 
