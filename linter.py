@@ -25,7 +25,7 @@ class StaticCheck(Linter):
     }
 
     # Turn off stdin. The staticheck command requires a file.
-    template_suffix = '-'
+    tempfile_suffix = '-'
 
     # Regex for handling compile errors.
     compile_regex = re.compile("^(?P<fileName>.*\.go)\:(?P<lineNumber>\d+)\:(?P<columnNumber>\d+)\:\s+(?P<message>.*)")
