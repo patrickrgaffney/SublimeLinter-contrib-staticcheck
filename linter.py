@@ -13,7 +13,7 @@ class StaticCheck(Linter):
     # currently in the active view. The "staticcheck" command works
     # best on directories (modules), so it's provided here to avoid the
     # command attempting to guess what directory we are at.
-    cmd = ('staticcheck', '-f', 'json', '${file_path}')
+    cmd = ('staticcheck', '${args}', '-f', 'json', '${file_path}')
 
     # The staticheck command uses a one-based reporting
     # for line and column numbers.
